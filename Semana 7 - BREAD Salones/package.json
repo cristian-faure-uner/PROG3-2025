@@ -1,0 +1,19 @@
+{
+  "name": "app-reservas",
+  "version": "1.0.0",
+  "description": "aplicación de reservas casa de cumpleaños",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "des": "node --watch index.js"
+  },
+  "author": "faure cristian",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "handlebars": "^4.7.8",
+    "mysql2": "^3.14.5",
+    "nodemailer": "^7.0.6"
+  }
+}
