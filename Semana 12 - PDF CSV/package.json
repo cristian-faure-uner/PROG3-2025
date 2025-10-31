@@ -1,0 +1,28 @@
+{
+  "name": "app-reservas",
+  "version": "1.0.0",
+  "description": "aplicación de reservas casa de cumpleaños",
+  "main": "src/reservas.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "des": "node --watch src/servidor.js"
+  },
+  "author": "faure cristian",
+  "license": "ISC",
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "csv-writer": "^1.6.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "mysql2": "^3.14.5",
+    "nodemailer": "^7.0.6",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "puppeteer": "^24.27.0"
+  }
+}
