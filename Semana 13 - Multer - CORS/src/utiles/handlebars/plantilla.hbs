@@ -1,0 +1,66 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nueva Reserva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 650px;
+      margin: 20px auto;
+      padding: 25px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+    header h1 {
+      margin: 0;
+      color: #03912e;
+    }
+    ul {
+      list-style-type: "📌 ";
+      padding-left: 20px;
+    }
+    li {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 13px;
+      color: #666;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Reservas de Casas de Cumpleaños 🎉</h1>
+    </header>
+
+    <h2>Notificación de nueva reserva</h2>
+    <ul>
+      <li><strong>Fecha de reserva:</strong> {{ fecha }}</li>
+      <li><strong>Salón:</strong> {{ salon }}</li>
+      <li><strong>Turno:</strong> {{ turno }}</li>
+    </ul>
+
+    <footer>
+      &copy; 2025 Reservas de Casas de Cumpleaños
+    </footer>
+  </div>
+</body>
+</html>
